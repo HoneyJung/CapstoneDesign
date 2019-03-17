@@ -10,8 +10,8 @@ DallasTemperature DS18B20(&oneWire);
 float prevTemp = 0;
 const char* server = "api.thingspeak.com";
 String apiKey ="7W8HH0C0JQZJEX7D";
-const char* MY_SSID = "AndroidHotspot1651"; 
-const char* MY_PWD = "qw159357";
+const char* MY_SSID = "SK_WIFI3717"; 
+const char* MY_PWD = "1307000506";
 int sent = 0;
 void setup() {
   Serial.begin(115200);
