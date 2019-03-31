@@ -31,11 +31,8 @@ void loop() {
   Serial.print(String(sent)+" Temperature: ");
   Serial.println(temp);
   
-  if (flag)
-    sendTeperatureTS(temp);
-  else
-    sendTeperatureTStoMyServer(temp);
-  flag = !flag;
+  sendTeperatureTStoMyServer(temp);
+
   int count = myPeriodic;
   while(count--)
   delay(1000);
