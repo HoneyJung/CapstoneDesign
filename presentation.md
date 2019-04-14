@@ -12,7 +12,7 @@
 
 ![점자생성기_대지1](https://github.com/JihoonJang/CapstoneDesign/blob/master/%EC%A0%90%EC%9E%90%EC%83%9D%EC%84%B1%EA%B8%B0_%EB%8C%80%EC%A7%80%201.jpg)
 
-</br></br>
+</br></br>(6) 화살표 버튼을 누르면 아두이노는 이전 텍스트를 서버에 요청하여 점자 데이터를 얻음
 
 4. 데이터 흐름도 : </br>사용자가 점자로 읽고 싶은 것을 텍스트 또는 사진으로 찍어 전송 
 </br>-> Vision API를 통해 텍스트로 변환 (ML 기반) 
