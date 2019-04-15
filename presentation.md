@@ -15,11 +15,13 @@
 ![점자생성기_대지1](https://github.com/JihoonJang/CapstoneDesign/blob/master/%EC%A0%90%EC%9E%90%EC%83%9D%EC%84%B1%EA%B8%B0_%EB%8C%80%EC%A7%80%201.jpg)
 </br></br>
 <h2>4. 데이터 흐름도</h2>
+</br>
+![점자생성기-03](https://github.com/JihoonJang/CapstoneDesign/blob/master/%EC%A0%90%EC%9E%90%EC%83%9D%EC%84%B1%EA%B8%B0-03.jpg)
+</br>
 </br>사용자가 점자로 읽고 싶은 것을 사진으로 찍어 전송 
 </br>-> Vision API를 통해 텍스트로 변환 (ML 기반) 
 </br>-> 텍스트를 서버의 DB에 저장, 추후 검색 기능에 활용
 </br>-> 서버에서 텍스트를 점자로 변환한 후 아두이노로 전송
 </br>-> 점자 표현 및 제공
 </br>
-![점자생성기-03](https://github.com/JihoonJang/CapstoneDesign/blob/master/%EC%A0%90%EC%9E%90%EC%83%9D%EC%84%B1%EA%B8%B0-03.jpg)
-</br>
+
